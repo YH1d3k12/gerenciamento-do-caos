@@ -1,0 +1,2 @@
+document.getElementById('novo').addEventListener('submit',function(e){e.preventDefault();var n=e.target.nome.value;var p=e.target.preco.value;var arr=[];arr.push({n,p});console.log(arr);});
+document.getElementById('fale').addEventListener('submit',function(e){e.preventDefault();var dados={nome:document.getElementById('nome').value,email:document.getElementById('email').value,mensagem:document.getElementById('mensagem').value};fetch('/send.php',{method:'POST',body:JSON.stringify(dados)}).then(r=>r.text()).then(t=>{alert('ok');});});
