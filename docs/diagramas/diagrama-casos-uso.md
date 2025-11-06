@@ -28,14 +28,14 @@ graph TB
     UC5 -.-> UC6
     UC4 -.-> UC7
     
-    style Sistema fill:#f0f8ff,stroke:#4682b4,stroke-width:3px
-    style Cliente fill:#90EE90,stroke:#006400,stroke-width:2px
-    style Admin fill:#FFB6C1,stroke:#8B0000,stroke-width:2px
-    style UC1 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
-    style UC2 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
-    style UC3 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
-    style UC4 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
-    style UC5 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
-    style UC6 fill:#E6E6FA,stroke:#4B0082,stroke-width:1px,stroke-dasharray: 5 5
-    style UC7 fill:#E6E6FA,stroke:#4B0082,stroke-width:1px,stroke-dasharray: 5 5
+    style Sistema fill:#f0f8ff,stroke:#4682b4,stroke-width:3px,color:#000
+    style Cliente fill:#90EE90,stroke:#006400,stroke-width:2px,color:#000
+    style Admin fill:#FFB6C1,stroke:#8B0000,stroke-width:2px,color:#000
+    style UC1 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px,color:#000
+    style UC2 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px,color:#000
+    style UC3 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px,color:#000
+    style UC4 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px,color:#000
+    style UC5 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px,color:#000
+    style UC6 fill:#E6E6FA,stroke:#4B0082,stroke-width:1px,stroke-dasharray: 5 5,color:#000
+    style UC7 fill:#E6E6FA,stroke:#4B0082,stroke-width:1px,stroke-dasharray: 5 5,color:#000
 ```
