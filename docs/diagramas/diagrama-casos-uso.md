@@ -1,6 +1,3 @@
-# Diagrama de Casos de Uso - Sistema de Marcenaria
-
-​```mermaid
 graph TB
     subgraph Sistema["Sistema de Gerenciamento de Marcenaria"]
         UC1[Visualizar Produtos]
@@ -38,4 +35,3 @@ graph TB
     style UC5 fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
     style UC6 fill:#E6E6FA,stroke:#4B0082,stroke-width:1px,stroke-dasharray: 5 5
     style UC7 fill:#E6E6FA,stroke:#4B0082,stroke-width:1px,stroke-dasharray: 5 5
-​```
