@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/app.css" />
+    <script defer src="../js/email.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <img src="../assets/logo.png" id="logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Fale Conosco</h1>
+    <form id="fale" action="">
+      <input type="text" name="nome" id="nome" placeholder="nome" />
+      <input type="email" name="email" id="email" placeholder="email"/>
+      <textarea name="mensagem" id="mensagem"></textarea>
+      <button onclick="enviarContato()">Enviar</button>
+    </form>
+  </body>
+</html>
