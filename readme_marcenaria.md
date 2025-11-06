@@ -173,28 +173,21 @@ gerenciamento-marcenaria/
 ## 📊 Diagramas
 
 Os diagramas UML do sistema estão disponíveis na pasta `/docs/diagramas/`:
-- Diagrama de Classes
+
 - Diagrama de Casos de Uso
-- Diagrama de Sequência (operações principais)
 
 ---
 
 ## 👥 Equipe de Desenvolvimento
-
-**Consultores de Engenharia de Software**
-- Análise e diagnóstico do sistema legado
-- Refatoração e aplicação de boas práticas
-- Documentação técnica completa
-- Modelagem UML
+- Eduardo. N.
+- Iago. R.
+- Djalma. H.
+- Miguel. A.
+- Natanael. B.
+- Luiz. F.
 
 **Professora Orientadora**
 - Profª Cláudia Werlich
-
----
-
-## 📝 Licença
-
-Este projeto foi desenvolvido para fins educacionais como parte da disciplina de Engenharia de Software.
 
 ---
 
@@ -208,16 +201,10 @@ Este projeto foi desenvolvido para fins educacionais como parte da disciplina de
 
 ---
 
-## 📞 Contato
-
-Para dúvidas ou sugestões, utilize a página de contato do sistema ou abra uma issue no repositório.
-
----
-
 ## 🎓 Contexto Acadêmico
 
 **Disciplina**: Engenharia de Software  
-**Instituição**: [Nome da Instituição]  
+**Instituição**: [Senac_Joinville]  
 **Período**: Novembro/2025  
 **Projeto**: Estudo de Caso Invertido - O Código Perdido da Startup
 
