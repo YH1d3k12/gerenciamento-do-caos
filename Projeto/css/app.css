@@ -1,16 +1,113 @@
-header {
+body {
+  background: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 8%;
+  height: 80px;
   background-color: #333;
   color: #fff;
-  padding: 20px;
 }
-nav ul {
-  list-style: none;
+
+.header nav ul {
   display: flex;
   gap: 10px;
 }
+
+.header nav ul li a {
+  color: #fff;
+}
+
+.header nav ul li a:hover {
+  color: #4a90e2;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  border-top: 3px solid #4a90e2;
+  padding: 20px 8%;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.layout {
+  padding: 40px 8%;
+  height: calc(100vh - 140px);
+  overflow: auto;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
 .card .title {
   font-size: 18px;
 }
+
 .price {
   color: green;
+}
+
+/* ----- Inputs ----- */
+input,
+select,
+textarea {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 12px;
+  width: 100%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.4);
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+.form-container {
+  margin: 40px 0px;
+  padding: 20px;
+  border-radius: 4px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }

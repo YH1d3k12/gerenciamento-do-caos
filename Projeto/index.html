@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Loja Bagunçada</title>
-    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
-    <header>
-        <img src="assets/logo.png" id="logo">
+    <header class="header">
+        <img src="assets/images/logo.png" id="logo" class="logo">
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -18,7 +18,14 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="layout">
+        <aside>
+            <form id="novo" method="post" class="form-container">
+                <label>Nome<input type="text" name="nome"></label>
+                <label>Preço<input type="text" name="preco"></label>
+                <button type="submit">Salvar</button>
+            </form>
+        </aside>
         <section id="produtos">
             <h1>Produtos</h1>
             <div class="card" data-id="1">
@@ -34,19 +41,12 @@
                 <button onclick="excluir(2)">Excluir</button>
             </div>
         </section>
-        <aside>
-            <form id="novo" method="post">
-                <label>Nome<input type="text" name="nome"></label>
-                <label>Preço<input type="text" name="preco"></label>
-                <button type="submit">Salvar</button>
-            </form>
-        </aside>
-        <footer>
-            <p>© Loja Bagunçada</p>
-        </footer>
         <script src="js/main.js"></script>
         <script src="js/crud.js"></script>
     </main>
+    <footer class="footer">
+        <p>© Loja Bagunçada</p>
+    </footer>
 </body>
 
 </html>
