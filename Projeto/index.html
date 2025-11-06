@@ -1,52 +1,64 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
     <title>Loja Bagunçada</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/app.css">
-</head>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <img src="assets/images/logo.png" id="logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+      <img
+        src="assets/images/logo.png"
+        id="logo"
+        class="logo"
+        alt="Logo da Loja"
+      />
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="layout">
-        <aside>
-            <form id="novo" method="post" class="form-container">
-                <label>Nome<input type="text" name="nome"></label>
-                <label>Preço<input type="text" name="preco"></label>
-                <button type="submit">Salvar</button>
-            </form>
-        </aside>
-        <section id="produtos">
-            <h1>Produtos</h1>
-            <div class="card" data-id="1">
-                <h2 class="title">Mesa</h2>
-                <p class="price">R$ 1200</p>
-                <button onclick="editar(1)">Editar</button>
-                <button onclick="excluir(1)">Excluir</button>
-            </div>
-            <div class="card" data-id="2">
-                <h2 class="title">Cadeira</h2>
-                <p class="price">R$ 300</p>
-                <button onclick="editar(2)">Editar</button>
-                <button onclick="excluir(2)">Excluir</button>
-            </div>
-        </section>
-        <script src="js/main.js"></script>
-        <script src="js/crud.js"></script>
-    </main>
-    <footer class="footer">
-        <p>© Loja Bagunçada</p>
-    </footer>
-</body>
 
+    <main class="layout">
+      <aside>
+        <form id="novo" method="post" class="form-container" autocomplete="off">
+          <label
+            >Nome<input type="text" name="nome" maxlength="50" required
+          /></label>
+          <label
+            >Preço<input type="text" name="preco" maxlength="10" required
+          /></label>
+          <button type="submit">Salvar</button>
+        </form>
+      </aside>
+
+      <section id="produtos">
+        <h1>Produtos</h1>
+        <div class="card" data-id="1">
+          <h2 class="title">Mesa</h2>
+          <p class="price">R$ 1200</p>
+          <button class="editar">Editar</button>
+          <button class="excluir">Excluir</button>
+        </div>
+        <div class="card" data-id="2">
+          <h2 class="title">Cadeira</h2>
+          <p class="price">R$ 300</p>
+          <button class="editar">Editar</button>
+          <button class="excluir">Excluir</button>
+        </div>
+      </section>
+
+      <script src="js/main.js"></script>
+      <script src="js/crud.js"></script>
+    </main>
+
+    <footer class="footer">
+      <p>© Loja Bagunçada</p>
+    </footer>
+  </body>
 </html>
